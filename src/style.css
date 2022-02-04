@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 10px;
+}
+.nav-logo{
+    width:60px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    box-shadow: 0 2px 3px -2px rgb(160, 160, 160);
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav-items > li{
+    padding: 10px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
